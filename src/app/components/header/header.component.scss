@@ -1,0 +1,28 @@
+.header-outer {
+  padding: 0px 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  height: 65px;
+  justify-content: center;
+  background-color: #fff;
+  -webkit-box-shadow: -4px 30px 62px -20px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -4px 30px 62px -20px rgba(0, 0, 0, 0.75);
+  box-shadow: -4px 30px 62px -20px rgba(0, 0, 0, 0.75);
+  .navigation {
+    display: flex;
+    gap: 30px;
+    font-size: 25px;
+    a {
+      color: #000000;
+      text-decoration: none;
+      &:hover {
+        color: #0000ee;
+        text-decoration: underline;
+      }
+    }
+    .active {
+      color: #0000ee;
+    }
+  }
+}
